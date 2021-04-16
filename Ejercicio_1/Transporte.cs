@@ -16,10 +16,7 @@ namespace Ejercicio_1
             this.cantidadPasajeros = cantidadPasajeros;
         }
 
-        protected Transporte(int cantidadPasajeros)
-        {
-            this.cantidadPasajeros = cantidadPasajeros;
-        }
+      
 
         public abstract string MostrarCantidadPasajeros();
         public abstract string Avanzar();
