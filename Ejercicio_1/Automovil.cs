@@ -12,17 +12,17 @@ namespace Ejercicio_1
         
         public override string Avanzar()
         {
-            return $"El auto {numeroVehiculo} con {cantidadPasajeros} pasajeros va en la calle a 20km/h";
+            return $"El auto {NumeroVehiculo} con {CantidadPasajeros} pasajeros va en la calle a 20km/h";
         }
 
         public override string Detenerse()
         {
-            return $"El auto {numeroVehiculo} se detuvo, los {cantidadPasajeros} pasajeros se bajaron del auto ";
+            return $"El auto {NumeroVehiculo} se detuvo, los {CantidadPasajeros} pasajeros se bajaron del auto ";
         }
 
         public override string MostrarCantidadPasajeros()
         {
-            return $"El auto {numeroVehiculo} tiene {cantidadPasajeros} pasajeros";
+            return $"El auto {NumeroVehiculo} tiene {CantidadPasajeros} pasajeros";
         }
     }
 }

@@ -8,12 +8,13 @@ namespace Ejercicio_1
 {
     public abstract class Transporte
     {
-        public int numeroVehiculo;
-        public int cantidadPasajeros;
+        public int NumeroVehiculo { get; set; }
+        public int CantidadPasajeros { get; set; }
+       
         public Transporte( int numeroVehiculo, int cantidadPasajeros)
         {
-            this.numeroVehiculo = numeroVehiculo;
-            this.cantidadPasajeros = cantidadPasajeros;
+            this.NumeroVehiculo = numeroVehiculo;
+            this.CantidadPasajeros = cantidadPasajeros;
         }
 
       

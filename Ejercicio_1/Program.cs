@@ -11,8 +11,9 @@ namespace Ejercicio_1
         static void Main(string[] args)
         {
             List<Transporte> vehiculos = new List<Transporte>
+            
             {
-                new Automovil(1,2),
+                 new Automovil(1,2),
                 new Automovil(2,1),
                 new Automovil(3,3),
                 new Automovil(4,4),
@@ -22,8 +23,8 @@ namespace Ejercicio_1
                 new Avion(3,202),
                 new Avion(4,209),
                 new Avion(5,113)
-
             };
+             
 
             foreach (var item in vehiculos)
             {
