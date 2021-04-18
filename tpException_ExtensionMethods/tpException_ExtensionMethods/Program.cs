@@ -57,7 +57,7 @@ namespace tpException_ExtensionMethods
             }
             catch (DivideByZeroException)
             {
-                Console.WriteLine("No se puede dividir por cero");
+                Console.WriteLine("Solo Chuck Norris divide por cero!");
             }
             finally
             {
