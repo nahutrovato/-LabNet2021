@@ -53,7 +53,7 @@ namespace tpException_ExtensionMethods
             }
             catch (FormatException)
             {
-                Console.WriteLine("Error en el ingreso de formato, ingreso una letra");   
+                Console.WriteLine("Seguro Ingreso una letra o no ingreso nada!");   
             }
             catch (DivideByZeroException)
             {
