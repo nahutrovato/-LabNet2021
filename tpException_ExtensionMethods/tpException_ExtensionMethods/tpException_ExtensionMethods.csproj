@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DivisionNumeros.cs" />
+    <Compile Include="Excepcion.cs" />
+    <Compile Include="ExcepcionPersonalizada.cs" />
+    <Compile Include="IntegerExtension.cs" />
     <Compile Include="Logic.cs" />
+    <Compile Include="mensajePersonalizado.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

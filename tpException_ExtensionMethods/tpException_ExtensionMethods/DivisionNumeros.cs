@@ -6,19 +6,9 @@ using System.Threading.Tasks;
 
 namespace tpException_ExtensionMethods
 {
-    class Program
+    class DivisionNumeros
     {
-        static void Main(string[] args)
-        {
-            int numero = 10;
-            Console.Write(numero.DividirPorCero());
-            Console.ReadLine();
-            Console.WriteLine(Division());
-            Console.ReadLine();
-        }
-
-
-        public static string Division()
+        public string Division()
         {
             Console.WriteLine("Ingrese un numero");
             string ingresoNumeroUno = Console.ReadLine();
