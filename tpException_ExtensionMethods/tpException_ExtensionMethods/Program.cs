@@ -15,6 +15,22 @@ namespace tpException_ExtensionMethods
             Console.ReadLine();
             Console.WriteLine(Division());
             Console.ReadLine();
+            
+            Logic capturandoExcepciones = new Logic();
+            try
+            {
+                Console.WriteLine(capturandoExcepciones.Dividir(10));
+
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("No se puede dividir por cero");
+            }
+            finally
+            {
+                Console.WriteLine("Se termino la ejecucion del ejercicio 3");
+            }
+            Console.ReadLine();
         }
 
 
@@ -41,6 +57,11 @@ namespace tpException_ExtensionMethods
             {
                 return $"Seguro Ingreso una letra o no ingreso nada!";
             }
+            finally
+            {
+                Console.WriteLine("Se termino la ejecucion del ejercicio 2");
+            }
+            
         }
     }
 }

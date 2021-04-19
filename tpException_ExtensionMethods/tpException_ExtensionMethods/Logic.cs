@@ -8,10 +8,10 @@ namespace tpException_ExtensionMethods
 {
     class Logic
     {
-       public int Dividir(int numero)
+       public string Dividir(int numero)
         {
             int resultado = numero / 0;
-            return resultado;
+            return $"El resultado es: {resultado}";
         }
     }
 }
