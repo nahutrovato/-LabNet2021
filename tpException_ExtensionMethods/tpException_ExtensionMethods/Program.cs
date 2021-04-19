@@ -31,6 +31,15 @@ namespace tpException_ExtensionMethods
                 Console.WriteLine("Se termino la ejecucion del ejercicio 3");
             }
             Console.ReadLine();
+            ExcepcionPersonalizada nuevaExcepcion = new ExcepcionPersonalizada("Mensaje Personalizado de error");
+            int num1 = 10;
+            int num2 = 20;
+
+            if (num1 != num2)
+            {
+                throw new ExcepcionPersonalizada("Se carga en el error");
+            }
+
         }
 
 

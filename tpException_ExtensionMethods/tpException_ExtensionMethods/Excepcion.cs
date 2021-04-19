@@ -6,19 +6,12 @@ using System.Threading.Tasks;
 
 namespace tpException_ExtensionMethods
 {
-    class Excepcion
+    public class ExcepcionPersonalizada : Exception
     {
-        public string Mensaje { get; set; }
-        public Excepcion(string Mensaje)
+        public ExcepcionPersonalizada(string mensaje) : base (mensaje)
         {
-            this.Mensaje = Mensaje;
+            Console.WriteLine(mensaje);
         }
-        public string MensajePersonalizado(string Mensaje)
-        {
-            this.Mensaje = Mensaje;
-            return $"{Mensaje}";
-        }
-        
     }
     
 }

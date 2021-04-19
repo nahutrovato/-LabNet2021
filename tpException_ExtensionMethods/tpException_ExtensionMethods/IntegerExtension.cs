@@ -15,7 +15,7 @@ namespace tpException_ExtensionMethods
                 int resultado = numero / 0;
                 return $"El resultado es: {resultado}";
             }
-            catch (Exception)
+            catch (DivideByZeroException)
             {
                 return $"No se puede dividir por cero";
             }
