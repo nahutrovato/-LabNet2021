@@ -10,12 +10,24 @@ namespace tpException_ExtensionMethods
     {
         static void Main(string[] args)
         {
-          
             Console.WriteLine("Ejercicio numero 1: Se intentara dividir el dividendo ingresado por 0:");
             DividiendoPorCero();
             Console.WriteLine("Ejercicio numero 2: Se intentara dividir el dividendo por el divisor ingresado");
             FnDividir();
             Console.Read();
+            Console.WriteLine("Ejercicio numero 3: Llamado a class Logic y captura de excepcion");
+            Logic capturoExcepcion = new Logic();
+            try
+            {
+               int resultado = capturoExcepcion.DisparoExcepcion(8); 
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Se captulo la excepcion desde presentacion");
+                Console.ReadLine();
+            }
+            
+            Console.ReadLine();
         }
 
         public static void DividiendoPorCero()
