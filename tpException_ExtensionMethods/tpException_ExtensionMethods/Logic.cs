@@ -8,7 +8,7 @@ namespace tpException_ExtensionMethods
 {
     class Logic
     {
-        public int DisparoExcepcion(int numero)
+       public int Dividir(int numero)
         {
             int resultado = numero / 0;
             return resultado;

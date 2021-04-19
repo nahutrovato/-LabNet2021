@@ -15,19 +15,22 @@ namespace tpException_ExtensionMethods
             Console.WriteLine("Ejercicio numero 2: Se intentara dividir el dividendo por el divisor ingresado");
             FnDividir();
             Console.Read();
-            Console.WriteLine("Ejercicio numero 3: Llamado a class Logic y captura de excepcion");
+            Console.WriteLine("Ejercicio numero 3: Llamado a class Logic y captura de excepcion.");
             Logic capturoExcepcion = new Logic();
             try
             {
-               int resultado = capturoExcepcion.DisparoExcepcion(8); 
+                capturoExcepcion.Dividir(10);
             }
-            catch (Exception)
+            catch (DivideByZeroException)
             {
-                Console.WriteLine("Se captulo la excepcion desde presentacion");
+                Console.WriteLine("No se puede dividir por cero");
                 Console.ReadLine();
             }
-            
-            Console.ReadLine();
+            finally
+            {
+                Console.WriteLine("Se termino la excepcion del ejercicio 3");
+                Console.ReadLine();
+            }
         }
 
         public static void DividiendoPorCero()
