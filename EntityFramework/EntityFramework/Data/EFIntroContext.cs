@@ -15,5 +15,7 @@ namespace EntityFramework.Data
         }
 
         public DbSet<EntityFramework.Models.Categories> Categories { get; set; }
+
+        public DbSet<EntityFramework.Models.Employees> Employees { get; set; }
     }
 }
