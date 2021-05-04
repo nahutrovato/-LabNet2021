@@ -5,8 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FormTP</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div id="contenedorPrincipal">
+        <header>
+            <h1>Contacto</h1>
+        </header>
+        <section>
+            <div id="formularioContacto">
+                <form action="">
+                        <h3>Informacion Personal</h3>
+                        <p><label for="">Nombre:</label></p>
+                        <input type="text" placeholder="Ingrese su nombre" required>
+                        <p><label for="">Apellido:</label></p>
+                        <input type="text" placeholder="Ingrese su apellio" required>
+                        <p><label for="">Edad:</label></p>
+                        <input type="number" placeholder="Ingrese su edad" required>
+                        <div class="seccionGeneroFormulario">
+                            <p><label for="">Masculino:</label></p>
+                            <input type="radio" value="Masculino" name="genero">
+                            <p><label for="">Femenino:</label></p>
+                            <input type="radio" value="Femenino" name="genero"> 
+                            <p><label for="">Otro:</label></p>
+                            <input type="radio" value="Otro" name="genero">
+                        </div>
+                            
+                       
+                     
+                        
+                        <h3>Informacion Adicional</h3>
+                        <p><label for="">Empresa:</label></p>
+                        <input type="text" placeholder="Ingrese su nombre" required>
+                        <br>
+                        <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
