@@ -7,15 +7,6 @@ body{
 p{
     margin:0;
 }
-input{
-    margin: 2px;
-    border-radius: 8px;
-    border: 1px solid #0093E9;
-}
-h3{
-    text-decoration: underline;
-    margin:4px;
-}
 footer{
     margin-top:60px;
 }
@@ -41,4 +32,13 @@ footer{
 }
 .seccionGeneroFormulario{
     margin-top: 15px;
+}
+.inputFormulario{
+    margin: 2px;
+    border-radius: 8px;
+    border: 1px solid #0093E9;
+}
+.titulosFormulario{
+    text-decoration: underline;
+    margin:4px;
 }
