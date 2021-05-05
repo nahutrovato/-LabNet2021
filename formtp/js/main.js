@@ -13,13 +13,13 @@ $(document).ready(function(){
               mensajeError.css('display','flex').css('color','red');
               mensajeError.text('No ingreso el nombre');
           }else if( apellido == ""){
-            mensajeError.css('display', 'flex').css('color','red');;
+              mensajeError.css('display', 'flex').css('color','red');;
               mensajeError.text('No ingreso el apellido');
           }else if(genero.length == 0){
-            mensajeError.css('display', 'flex').css('color','red');;
+              mensajeError.css('display', 'flex').css('color','red');;
               mensajeError.text('No ingreso el genero');
           }else if( empresa == ""){
-            mensajeError.css('display', 'flex').css('color','red');;
+              mensajeError.css('display', 'flex').css('color','red');;
               mensajeError.text('No ingreso la empresa');
           }
          
